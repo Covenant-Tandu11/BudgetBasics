@@ -1,0 +1,136 @@
+.main-header{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+}
+
+.header-brand{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.logo{
+    height: 32px;
+    width: 32px;
+}
+
+.header-brand span{
+    color: #855300;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 28px;
+}
+
+.header-actions{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #F2F3FF;  border-radius: 20px;
+  padding: 8px 16px;
+  min-width: 220px;
+}
+
+.search-bar svg {
+  color: #534434;
+  font-size: 14px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  color: #534434;
+}
+
+.btn-simulator{
+    background-color: #F59E0B;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #F59E0B;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-simulator:hover{
+    background-color: #855300;
+    transform: translateY(-1px);
+    color: #F2F3FF;
+    box-shadow: 0 0 5px #855300;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #855300; 
+  border-radius: 50%;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.user-avatar:hover{
+    background-color: #F59E0B;
+}
+
+.user-avatar svg {
+  color: #ffffff;           
+  width: 18px;               
+  height: 18px;
+}
+
+.main-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 1rem; 
+    overflow: hidden;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.25rem; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+.nav-item {
+    flex-shrink: 1; 
+    min-width: 0; 
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.75rem; 
+    text-decoration: none;
+    color: #333;
+    font-size: 0.875rem; 
+    font-weight: 500;
+    border-radius: 20px;
+    transition: background 0.2s ease, color 0.2s ease;
+    white-space: nowrap; 
+    text-align: center;
+}
+
+.nav-link:hover {
+    background: #F59E0B;
+    color: #fff; 
+}
